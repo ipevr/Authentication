@@ -22,7 +22,7 @@ const userSchema = new mongoose.Schema({
 
 const User = new mongoose.model("User", userSchema);
 
-console.log(md5("123456"));
+console.log(md5("2906"));
 
 app.get("/", (req, res) => {
     res.render("home");
